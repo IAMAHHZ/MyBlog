@@ -1,7 +1,7 @@
 ---
 title: Getting to Know Quadratic Residues
 published: 2026-08-23
-description: ''
+description: 数论前置知识补习班开课辣
 image: ''
 tags: [数论前置壹]
 category: 学习
