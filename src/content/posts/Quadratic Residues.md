@@ -3,8 +3,7 @@ title: Getting to Know Quadratic Residues
 published: 2026-08-23
 description: ''
 image: ''
-tags: [数论]
-category: ''
+tags: [数论前置]
 draft: false 
 lang: ''
 ---
@@ -141,7 +140,9 @@ $$
 \left(\frac{p}{q}\right) = (-1)^{\sum_{x \in A_q} \lfloor \frac{px}{q} \rfloor} = (-1)^{|S_2|}
 $$
 
-对于任意一对 $(x, y)$，要么 $qx > py$，要么 $qx < py$，所以 $|S_1|, |S_2|$ 瓜分了所有 $(x, y)$ 组成的集合 $A_p \times A_q$（如果 $qx = py$，因为 $p, q$ 互质，则必须是 p 整除 x，但是 x 只取 1 到 $\frac{p-1}{2}$，不可能达到。所以 $qx = py$ 不可能发生）
+对于任意一对 $(x, y)$，要么 $qx > py$，要么 $qx < py$，所以 $|S_1|, |S_2|$ 瓜分了所有 $(x, y)$ 组成的集合 $A_p \times A_q$
+
+> 如果 $qx = py$，因为 $p, q$ 互质，则必须是 p 整除 x，但是 x 只取 1 到 $\frac{p-1}{2}$，不可能达到。所以 $qx = py$ 不可能发生
 
 又因为：
 
@@ -161,6 +162,4 @@ $$
 $$
 \left(\frac{a}{n}\right) = \prod_{i=1}^{k} \left(\frac{a}{p_i}\right)
 $$
-**区别**：
-
-Jacobi符号中，=-1则a一定是非剩余，但是=1不保证是二次剩余（因子可能抵消）
+> **区别**：Jacobi符号中，=-1则a一定是非剩余，但是=1不保证是二次剩余（因子可能抵消）
