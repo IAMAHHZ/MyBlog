@@ -1,5 +1,5 @@
 ---
-title: Getting
+title: Getting to Know Quadratic Residues
 published: 2026-08-23
 description: ''
 image: ''
