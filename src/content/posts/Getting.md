@@ -154,3 +154,13 @@ $$
 $$
 \left(\frac{p}{q}\right) \cdot \left(\frac{q}{p}\right) = (-1)^{\frac{p-1}{2} \cdot \frac{q-1}{2}}
 $$
+
+### Jacobi符号
+
+勒让德符号推广到任意的奇整数$n={p_1}{p_2}...p_k$:
+$$
+\left(\frac{a}{n}\right) = \prod_{i=1}^{k} \left(\frac{a}{p_i}\right)
+$$
+**区别**：
+
+Jacobi符号中，=-1则a一定是非剩余，但是=1不保证是二次剩余（因子可能抵消）
